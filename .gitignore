@@ -1,0 +1,28 @@
+# Виртуальные окружения
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Кэш и модели
+.cache/
+*.pt
+*.bin
+mlruns/
+
+# Локальные конфиги и секреты
+.env
+*.local
+*.log
+
+# Docker
+.docker/
+*.dockerignore
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Тестовые файлы
+test_*.py
+screenshots/
