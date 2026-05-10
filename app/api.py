@@ -28,7 +28,7 @@ def predict(req: SummarizeRequest):
             
             summary = summarize(text)
             
-            mlflow.log_param("model", "IlyaGusev/mt5_ru_summarization")
+            mlflow.log_param("model", "cointegrated/rut5-base-absum ")
             mlflow.log_param("url", req.url)
             mlflow.log_param("max_length", 150)
             mlflow.log_metric("input_length", len(text))
